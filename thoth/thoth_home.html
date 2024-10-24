@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thoth</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de Navegação -->
+    <header>
+        <div id="navbar">
+            <input type="text" placeholder="Procurar no Thoth!" id="search-bar">
+            <div id="nav-icons">
+                <img src="img/home-icon.png" alt="Home">
+                <img src="img/camera-icon.png" alt="Camera">
+                <img src="img/heart-icon.png" alt="Heart">
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu Lateral -->
+    <aside id="sidebar">
+        <div class="menu-item"><img src="img/user-icon.png" alt="Usuário"> Usuário</div>
+        <div class="menu-item"><img src="img/gallery-icon.png" alt="Galeria"> Galeria</div>
+        <div class="menu-item"><img src="img/kennel-icon.png" alt="Canis Próximos"> Canis Próximos</div>
+        <div class="menu-item"><img src="img/location-icon.png" alt="Localize um Bichinho"> Localize um Bichinho</div>
+        <div class="menu-item"><img src="img/vet-icon.png" alt="Veterinários Próximos"> Veterinários Próximos</div>
+        <div class="menu-item"><img src="img/donate-icon.png" alt="Doe Para Caridade"> Doe Para Caridade</div>
+        <div class="menu-item"><img src="img/emergency-icon.png" alt="Serviços de Emergência"> Serviços de Emergência</div>
+    </aside>
+
+    <!-- Seção Principal -->
+    <main>
+        <!-- Publicação de Post -->
+        <section id="postar">
+            <div id="nova-publicacao">
+                <h3>Faça publicações sobre seu bichinho!</h3>
+                <input type="text" placeholder="Escreva aqui..." id="post-text">
+                <button onclick="postar()">Foto / Vídeo</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Seção Lateral -->
+    <aside id="info">
+        <h4>Quem é a Thoth?</h4>
+        <ul>
+            <li><a href="#">Quem é a Thoth?</a></li>
+            <li><a href="#">Como fomos criados?</a></li>
+            <li><a href="#">Nossos Parceiros!</a></li>
+        </ul>
+    </aside>
+    <script src="scripts.js"></script>
+</body>
+</html>
