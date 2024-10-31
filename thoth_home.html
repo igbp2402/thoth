@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thoth</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>    
+    <!-- Barra de Navegação -->
+    <header>
+        <div id="navbar">
+            <input type="text" placeholder="Procurar no Thoth!" id="search-bar">
+            <div id="nav-icons">
+                <img src="home-icon.png" alt="Home" class="icon">
+                <img src="camera.png" alt="Camera" class="icon">
+                <img src="coração.png" alt="Heart" class="icon">
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu Lateral -->
+    <div id="sidebar">
+        <div class="menu-item"><img src="user-icon.png" alt="Usuário" class="icon"> Usuário</div>
+        <div class="menu-item"><img src="galeria.png" alt="Galeria" class="icon"> Galeria</div>
+        <div class="menu-item"><img src="kennel-icon.png" alt="Canis Próximos" class="icon"> Canis Próximos</div>
+        <div class="menu-item"><img src="location-icon.png" alt="Localize um Bichinho" class="icon"> Localize um Bichinho</div>
+        <div class="menu-item"><img src="vet-icon.png" alt="Veterinários Próximos" class="icon"> Veterinários Próximos</div>
+        <div class="menu-item"><img src="donate.png" alt="Doe Para Caridade" class="icon"> Doe Para Caridade</div>
+        <div class="menu-item"><img src="emergency.png" alt="Serviços de Emergência" class="icon"> Serviços de Emergência</div>
+    </div>
+
+    <!-- Seção Principal -->
+    <main>
+        <!-- Publicação de Post -->
+        <section id="postar">
+            <div id="nova-publicacao">
+                <h3>Faça publicações sobre seu bichinho!</h3>
+                <input type="text" placeholder="Escreva aqui..." id="post-text">
+                <button onclick="postar()">Foto / Vídeo</button>
+            </div>
+        </section>
+
+      <!-- Postagem de exemplo -->
+<section class="postagem">
+    <div class="post-content">
+        <h4>Cãosuário</h4>
+        <p>A Thoth ajudou a salvar o Apolo há 1 ano e olha como ele está agora! Feliz e saudável. Muito obrigado pela ajuda de todos os envolvidos.</p>
+        <img src="dog.jpg" alt="Apolo o cão" class="post-img">
+    </div>
+</section>
+
+    </main>
+
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
