@@ -6,29 +6,29 @@
     <title>Thoth</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body>    
     <!-- Barra de Navegação -->
     <header>
         <div id="navbar">
             <input type="text" placeholder="Procurar no Thoth!" id="search-bar">
             <div id="nav-icons">
-                <img src="img/home-icon.png" alt="Home">
-                <img src="img/camera-icon.png" alt="Camera">
-                <img src="img/heart-icon.png" alt="Heart">
+                <img src="home-icon.png" alt="Home" class="icon">
+                <img src="camera.png" alt="Camera" class="icon">
+                <img src="coração.png" alt="Heart" class="icon">
             </div>
         </div>
     </header>
 
     <!-- Menu Lateral -->
-    <aside id="sidebar">
-        <div class="menu-item"><img src="img/user-icon.png" alt="Usuário"> Usuário</div>
-        <div class="menu-item"><img src="img/gallery-icon.png" alt="Galeria"> Galeria</div>
-        <div class="menu-item"><img src="img/kennel-icon.png" alt="Canis Próximos"> Canis Próximos</div>
-        <div class="menu-item"><img src="img/location-icon.png" alt="Localize um Bichinho"> Localize um Bichinho</div>
-        <div class="menu-item"><img src="img/vet-icon.png" alt="Veterinários Próximos"> Veterinários Próximos</div>
-        <div class="menu-item"><img src="img/donate-icon.png" alt="Doe Para Caridade"> Doe Para Caridade</div>
-        <div class="menu-item"><img src="img/emergency-icon.png" alt="Serviços de Emergência"> Serviços de Emergência</div>
-    </aside>
+    <div id="sidebar">
+        <div class="menu-item"><img src="user-icon.png" alt="Usuário" class="icon"> Usuário</div>
+        <div class="menu-item"><img src="galeria.png" alt="Galeria" class="icon"> Galeria</div>
+        <div class="menu-item"><img src="kennel-icon.png" alt="Canis Próximos" class="icon"> Canis Próximos</div>
+        <div class="menu-item"><img src="location-icon.png" alt="Localize um Bichinho" class="icon"> Localize um Bichinho</div>
+        <div class="menu-item"><img src="vet-icon.png" alt="Veterinários Próximos" class="icon"> Veterinários Próximos</div>
+        <div class="menu-item"><img src="donate.png" alt="Doe Para Caridade" class="icon"> Doe Para Caridade</div>
+        <div class="menu-item"><img src="emergency.png" alt="Serviços de Emergência" class="icon"> Serviços de Emergência</div>
+    </div>
 
     <!-- Seção Principal -->
     <main>
@@ -40,17 +40,20 @@
                 <button onclick="postar()">Foto / Vídeo</button>
             </div>
         </section>
+
+      <!-- Postagem de exemplo -->
+<section class="postagem">
+    <div class="post-content">
+        <h4>Cãosuário</h4>
+        <p>A Thoth ajudou a salvar o Apolo há 1 ano e olha como ele está agora! Feliz e saudável. Muito obrigado pela ajuda de todos os envolvidos.</p>
+        <img src="dog.jpg" alt="Apolo o cão" class="post-img">
+    </div>
+</section>
+
     </main>
 
-    <!-- Seção Lateral -->
-    <aside id="info">
-        <h4>Quem é a Thoth?</h4>
-        <ul>
-            <li><a href="#">Quem é a Thoth?</a></li>
-            <li><a href="#">Como fomos criados?</a></li>
-            <li><a href="#">Nossos Parceiros!</a></li>
-        </ul>
-    </aside>
-    <script src="scripts.js"></script>
+   
+
+    <script src="script.js"></script>
 </body>
 </html>
